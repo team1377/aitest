@@ -78,6 +78,8 @@ def app():
 
     # Streamlit 애플리케이션 시작
     # 기본 Streamlit UI
+    image_url = "https://i.imgur.com/7cBH3fu.png "
+    st.image(image_url)
     st.markdown('<div class="title-container"><h1>냉장고를 부탁해~ 셰프봇! 🧑‍🍳</h1></div>', unsafe_allow_html=True)
 
     # 사용자 이름

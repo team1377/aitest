@@ -2,7 +2,6 @@ import streamlit as st
 import globalData as gData
 
 def app():
-    st.title("냉장고 들어가기")
 
     # Custom CSS to align elements at the bottom
     st.markdown("""
@@ -18,6 +17,8 @@ def app():
         </style>
     """, unsafe_allow_html=True)
 
+    image_url = "https://i.imgur.com/7cBH3fu.png "
+    st.image(image_url)
     # 페이지 레이아웃 설정
     col1, col2 = st.columns([3, 1])
 
